@@ -1,0 +1,358 @@
+/* Default settings */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+
+a {
+    text-decoration: none;
+}
+
+/* End Default settings */
+/* Nav bar */
+.container {
+    width: 100%;
+    margin: 0px auto;
+}
+
+#nav-bar {
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+#nav-bar-links {
+    display: inline-block;
+}
+
+#nav-bar-links ul {
+    display: inline-block;
+}
+
+#nav-bar-links ul li {
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+#nav-bar-links ul li a {
+    color: white;
+    padding: 10px;
+}
+
+#nav-bar-links ul li a:hover {
+    background-color: gray;
+}
+
+#nav-bar-logo {
+    display: inline-block;
+    width: 67%;
+    text-align: right;
+    color: white;
+    text-transform: uppercase;
+
+}
+
+#nav-bar-logo a {
+    color: white;
+    padding: 10px 10px 10px 10px;
+    margin: 0px;
+}
+
+#nav-bar-logo a:hover {
+    background-color: red;
+
+}
+
+
+#nav-bar-links ul .nav-bar-window {
+    display: inline-block;
+}
+#nav-bar-links ul .nav-bar-window li   {
+    background: #757575;
+}
+#nav-bar-links ul:hover .nav-bar-window .nav-window  {
+    display: block;
+}
+#nav-bar-links ul .nav-bar-window .nav-window {
+    position: absolute;
+    width: 100px;
+    display: none;
+    margin: auto;
+}
+
+
+
+
+
+
+/* Navbar end */
+/* Banner */
+#banner {
+    height: 120vh;
+    background-image: url(../img/Duman.jpg);
+    background-size: cover;
+}
+
+#banner h1 {
+    color: white;
+    text-align: center;
+    padding-top: 750px;
+
+}
+
+#banner p {
+    color: #fff;
+    text-align: center;
+}
+
+/* Banner end */
+/* About */
+#about {
+    margin-bottom: 50px;
+}
+
+#about h2 {
+    text-transform: uppercase;
+    text-align: center;
+    letter-spacing: 5px;
+    padding: 60px 0px 20px 0px;
+}
+
+.container-about {
+    width: 60%;
+    margin: 0px auto;
+}
+
+#about .first-p {
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+    padding-bottom: 20px;
+}
+
+#about .second-p {
+    text-align: justify !important;
+    padding-bottom: 100px;
+    font-size: 14px;
+}
+
+#names div {
+    display: inline-block;
+}
+
+#names img {
+    width: 190px;
+    height: 200px;
+    margin: 0px 50px;
+
+}
+
+#names div p {
+    text-align: center;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+/* About end */
+/* Consert dates */
+#date {
+    background-color: black;
+    padding-bottom: 70px;
+}
+
+#date .date-letters {
+    color: #fff;
+    text-align: center;
+
+}
+
+#date .date-letters h2 {
+    padding: 30px 0px;
+}
+
+#date .date-letters p {
+    padding-bottom: 30px;
+}
+
+.tickets {
+    background-color: white;
+
+}
+
+.tickets p {
+    border-bottom: solid 1px #ddd;
+    padding: 10px;
+    color: #757575;
+}
+
+.tickets p span {
+    color: #fff;
+    background-color: #f44336;
+    padding: 5px 14px;
+}
+
+.tickets .tickets-number {
+
+    margin-left: 85%;
+    background-color: black;
+    border-radius: 50%;
+
+}
+
+#city {
+    margin-top: 20px;
+}
+
+#city div {
+    display: inline-block;
+    background-color: white;
+}
+
+#city .cities img {
+    width: 280px;
+    height: 200px;
+
+}
+
+#city .first-city {
+    margin-right: 20px;
+}
+
+#city .second-city {
+    margin: 0px -0.9px;
+}
+
+#city .thirty-city {
+    margin-left: 20px;
+}
+
+#city .cities img {
+    width: 280px;
+    height: 200px;
+
+}
+
+#city .cities h4 {
+    padding: 10px;
+
+}
+
+#city .cities .cities-dates {
+    padding: 10px;
+    opacity: 0.6;
+}
+
+#city .cities .sss {
+    width: 270px;
+    padding: 10px;
+}
+#city .cities a:hover {
+    color: #757575;
+}
+
+#city .cities .ticket-buy-buttom {
+    padding: 20px;
+
+}
+
+#city .cities .ticket-buy-buttom a {
+    background-color: #000;
+    padding: 10px 15px;
+    color: white;
+
+}
+
+#city .cities .ticket-buy-buttom a:hover {
+    background-color: gray;
+}
+/* Consert dates end. */
+/* Contact */
+#contact {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+#contact .contact-text h2 {
+    text-align: center;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    padding-bottom: 20px;
+}
+#contact .contact-text p {
+    text-align: center;
+    opacity: 0.5;
+    padding-bottom: 20px;
+}
+#contact .adress  {
+    display: inline-block;
+    margin-right: 200px;
+}
+#contact .adress p{
+    padding: 5px;
+}
+.fa-map-marker {
+ margin-right: 10px;
+}
+.fa-phone{ margin-right: 10px;}
+.fa-envelope { margin-right: 10px;}
+
+#form {
+    display: inline-block;
+  
+}
+#form .input-one {
+    margin-bottom: 8px;
+}
+#form .input-one input {
+    height: 30px;
+    padding-left: 5px;
+  
+}   
+#form .input-two input {
+    width: 370px;
+    height: 30px;
+    padding :10px ;
+}   
+.input-buttom p {
+    padding-top: 20px ; 
+    text-align: right;
+}
+.input-buttom  a{
+    padding: 10px 15px ; 
+color: white;
+background-color: black;
+}
+
+.input-buttom a:hover {
+    background-color: gray;
+}
+/* Conrtact end */
+/* Map */
+
+#map img {
+    width: 99.99%;
+    background-size: cover;
+}
+/* map end */
+/* footer */
+
+#footer  {
+padding: 100px;
+}
+#footer p {
+    text-align: center;
+    color: #757575;
+}
+#footer .fa {
+    padding-bottom: 15px;
+    font-size: 24px;
+}
+#footer p a {
+    color: #757575;
+}
+#footer p a:hover {
+    color: #f44336;
+}
+/* Footer end */
